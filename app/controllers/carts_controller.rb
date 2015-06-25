@@ -27,12 +27,12 @@ class CartsController < ApplicationController
     @cart = Cart.new(cart_params)
 
     respond_to do |format|
-      if @cart.save
-        format.html { redirect_to @cart, notice: 'Cart was successfully created.' }
-        format.json { render :show, status: :created, location: @cart }
+      if @carts.save
+        format.html { redirect_to @carts, notice: 'Cart was successfully created.' }
+        format.json { render :show, status: :created, location: @carts }
       else
         format.html { render :new }
-        format.json { render json: @cart.errors, status: :unprocessable_entity }
+        format.json { render json: @carts.errors, status: :unprocessable_entity }
       end
     end
   end
