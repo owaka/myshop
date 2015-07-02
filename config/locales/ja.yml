@@ -213,3 +213,7 @@ ja:
   addtocart: カートに入れる
   lineitemcreated: カートに商品が追加されました
   yourcart: カート
+  emptycart: カートを空にする
+  cartdestroyed: カートが空になりました
+  total: 合計
+  invalidcart: 不適切なカートが指定されました

@@ -29,3 +29,7 @@ en:
   addtocart: Add to Cart
   lineitemcreated: Line item was successfully created.
   yourcart: Your Cart
+  emptycart: Empty cart
+  cartdestroyed: Cart was successfully destroyed.
+  total: Total
+  invalidcart: Invalid cart
